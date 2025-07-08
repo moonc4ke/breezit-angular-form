@@ -38,16 +38,33 @@ src/
 ├── app/
 │   ├── components/
 │   │   ├── dynamic-form/           # Main dynamic form component
+│   │   │   ├── dynamic-form.component.ts
+│   │   │   ├── dynamic-form.component.scss
+│   │   │   └── dynamic-form.component.spec.ts
 │   │   └── senior-application/     # Senior application page
+│   │       ├── senior-application.component.ts
+│   │       ├── senior-application.component.scss
+│   │       └── senior-application.component.spec.ts
+│   ├── integration/                # Integration tests
+│   │   └── form-validation.integration.spec.ts
 │   ├── models/
 │   │   └── form-data.interface.ts  # TypeScript interfaces
 │   ├── services/
-│   │   └── form-data.service.ts    # Form data management
+│   │   ├── form-data.service.ts    # Form data management
+│   │   └── form-data.service.spec.ts
 │   ├── app.config.ts               # App configuration
 │   ├── app.routes.ts               # Routing configuration
-│   └── app.component.ts            # Root component
+│   ├── app.ts                      # Root component
+│   ├── app.html                    # Root component template
+│   ├── app.scss                    # Root component styles
+│   └── app.spec.ts                 # Root component tests
+├── main.ts                         # Application bootstrap
+├── index.html                      # HTML template
 ├── styles.scss                     # Global styles
-└── index.html                      # HTML template
+├── material-theme.scss             # Material Design theme
+├── shared-components.scss          # Shared component styles
+public/
+└── favicon.ico                     # Application favicon
 ```
 
 ## 📝 Available Commands
