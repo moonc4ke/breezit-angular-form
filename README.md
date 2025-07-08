@@ -13,7 +13,7 @@ Angular dynamic form application with Material Design built with Angular v20.
 1. **Clone the repository**
    ```bash
    git clone [repository-url]
-   cd breezit-angular
+   cd breezit-angular-form
    ```
 
 2. **Install dependencies**
